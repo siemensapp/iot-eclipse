@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/MCL_HOME/delimiter=;
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/MCL_HOME/operation=append
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/MCL_HOME/value=C\:\\Users\\ES1001\\eclipse-workspace\\MindConnect_Library_V3.1.3.0
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/PATH/delimiter=;
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/PATH/operation=append
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/PATH/value=C\:\\Users\\ES1001\\Desktop/sysroots/i686-pokysdk-mingw32/usr/bin/i586-poky-linux
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/POKY_HOME/delimiter=;
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/POKY_HOME/operation=append
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/POKY_HOME/value=C\:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/append=true
+environment/project/com.siemens.cdt.iot2000.toolchain.configuration.release.124166168/appendContributed=true

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.siemens.cdt.iot2000.toolchain.configuration.release.459801587">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.siemens.cdt.iot2000.toolchain.configuration.release.459801587" moduleId="org.eclipse.cdt.core.settings" name="IOT2000 Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="TestIOT" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="cmd /c del" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;" id="com.siemens.cdt.iot2000.toolchain.configuration.release.459801587" name="IOT2000 Release" parent="com.siemens.cdt.iot2000.toolchain.configuration.release">
+					<folderInfo id="com.siemens.cdt.iot2000.toolchain.configuration.release.459801587." name="/" resourcePath="">
+						<toolChain id="com.siemens.cdt.iot2000.toolchain.toolchain.524339337" name="IOT2000 Chain" superClass="com.siemens.cdt.iot2000.toolchain.toolchain">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.siemens.cdt.iot2000.toolchain.targetplatform.1366593297" isAbstract="false" name="IOT2000 Target Platform" superClass="com.siemens.cdt.iot2000.toolchain.targetplatform"/>
+							<builder buildPath="${workspace_loc:/TestIOT}/IOT2000 Release" id="com.siemens.cdt.iot2000.toolchain.builder.733620347" name="IOT2000 Builder.IOT2000 Release" superClass="com.siemens.cdt.iot2000.toolchain.builder"/>
+							<tool id="com.siemens.cdt.iot2000.toolchain.clinker.1112612086" name="IOT2000 C Linker" superClass="com.siemens.cdt.iot2000.toolchain.clinker"/>
+							<tool id="com.siemens.cdt.iot2000.toolchain.compiler.329766488" name="IOT2000 C Compiler" superClass="com.siemens.cdt.iot2000.toolchain.compiler"/>
+							<tool id="com.siemens.cdt.iot2000.toolchain.ccompiler.1443646743" name="IOT2000 C++ Compiler" superClass="com.siemens.cdt.iot2000.toolchain.ccompiler"/>
+							<tool id="com.siemens.cdt.iot2000.toolchain.linker.1136571074" name="IOT2000 C++ Linker" superClass="com.siemens.cdt.iot2000.toolchain.linker"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TestIOT.null.966152171" name="TestIOT"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

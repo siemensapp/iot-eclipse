@@ -1,0 +1,8 @@
+{
+  "Host": "192.168.200.3",
+  "ID": "88d359a7-5049-4d80-9ba8-03523de3d647",
+  "Name": "TCF Agent",
+  "Port": "1534",
+  "TransportName": "TCP",
+  "autoConnect": "true"
+}

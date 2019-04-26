@@ -1,0 +1,17 @@
+15:13:57 **** Incremental Build of configuration IOT2000 Release for project Onboarding ****
+Info: Internal Builder is used for build
+i586-poky-linux-gcc "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/c++/6.2.0" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/c++/6.2.0/i586-poky-linux" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/mraa" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/upm" "-IC:\\Users\\ES1001\\eclipse-workspace\\MindConnect_Library_V3.1.3.0/lib" "-IC:\\Users\\ES1001\\eclipse-workspace\\MindConnect_Library_V3.1.3.0/examples" "-IC:\\Users\\ES1001\\eclipse-workspace\\MindConnect_Library_V3.1.3.0/include" "-IC:\\Users\\ES1001\\eclipse-workspace\\MindConnect_Library_V3.1.3.0/src" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux\\usr\\lib\\gcc\\i586-poky-linux\\6.2.0\\include" -O0 -g3 -Wall -c -fmessage-length=0 -m32 -march=i586 -c -ffunction-sections -fdata-sections "--sysroot=C:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux" -o example.o "..\\example.c" 
+..\example.c: In function 'main':
+..\example.c:6:2: warning: implicit declaration of function 'onboarding' [-Wimplicit-function-declaration]
+  onboarding(argc, argv);
+  ^~~~~~~~~~
+..\example.c:6:13: error: 'argc' undeclared (first use in this function)
+  onboarding(argc, argv);
+             ^~~~
+..\example.c:6:13: note: each undeclared identifier is reported only once for each function it appears in
+..\example.c:6:19: error: 'argv' undeclared (first use in this function)
+  onboarding(argc, argv);
+                   ^~~~
+
+15:13:57 Build Failed. 2 errors, 1 warnings. (took 128ms)
+

@@ -1,0 +1,7 @@
+16:40:02 **** Incremental Build of configuration IOT2000 Release for project TestIOT ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/c++/6.2.0" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/c++/6.2.0/i586-poky-linux" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/mraa" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/upm" "-IC:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux/usr/include/upm" -O0 -g3 -Wall -c -fmessage-length=0 -m32 -march=i586 -c -ffunction-sections -fdata-sections "--sysroot=C:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux" -o example.o "..\\example.cpp" 
+i586-poky-linux-g++ -lmraa -fno-use-linker-plugin "--sysroot=C:\\Users\\ES1001\\Desktop/sysroots/i586-nlp-32-poky-linux" -o TestIOT example.o 
+
+16:40:03 Build Finished. 0 errors, 0 warnings. (took 663ms)
+

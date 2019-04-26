@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.siemens.cdt.iot2000.toolchain.configuration.release.124166168">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.siemens.cdt.iot2000.toolchain.configuration.release.124166168" moduleId="org.eclipse.cdt.core.settings" name="IOT2000 Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="Timeseries" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="cmd /c del" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;" id="com.siemens.cdt.iot2000.toolchain.configuration.release.124166168" name="IOT2000 Release" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=" parent="com.siemens.cdt.iot2000.toolchain.configuration.release">
+					<folderInfo id="com.siemens.cdt.iot2000.toolchain.configuration.release.124166168." name="/" resourcePath="">
+						<toolChain id="com.siemens.cdt.iot2000.toolchain.toolchain.2034717307" name="IOT2000 Chain" superClass="com.siemens.cdt.iot2000.toolchain.toolchain">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.siemens.cdt.iot2000.toolchain.targetplatform.2022286123" isAbstract="false" name="IOT2000 Target Platform" superClass="com.siemens.cdt.iot2000.toolchain.targetplatform"/>
+							<builder buildPath="${workspace_loc:/Timeseries}/IOT2000 Release" id="com.siemens.cdt.iot2000.toolchain.builder.2082426147" keepEnvironmentInBuildfile="false" name="IOT2000 Builder" superClass="com.siemens.cdt.iot2000.toolchain.builder"/>
+							<tool id="com.siemens.cdt.iot2000.toolchain.clinker.1249735106" name="IOT2000 C Linker" superClass="com.siemens.cdt.iot2000.toolchain.clinker">
+								<option id="com.siemens.cdt.iot2000.toolchain.clinker.flags.1383961062" superClass="com.siemens.cdt.iot2000.toolchain.clinker.flags" useByScannerDiscovery="false" value="-lmraa -lmc -fno-use-linker-plugin" valueType="string"/>
+							</tool>
+							<tool id="com.siemens.cdt.iot2000.toolchain.compiler.1476669538" name="IOT2000 C Compiler" superClass="com.siemens.cdt.iot2000.toolchain.compiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.siemens.cdt.iot2000.toolchain.compiler.general.incpath.1795350347" superClass="com.siemens.cdt.iot2000.toolchain.compiler.general.incpath" useByScannerDiscovery="true" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${POKY_HOME}/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${POKY_HOME}/usr/include/c++/6.2.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${POKY_HOME}/usr/include/c++/6.2.0/i586-poky-linux&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${POKY_HOME}/usr/include/mraa&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${POKY_HOME}/usr/include/upm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCL_HOME}/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCL_HOME}/examples&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCL_HOME}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCL_HOME}/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${POKY_HOME}\usr\lib\gcc\i586-poky-linux\6.2.0\inlcude&quot;"/>
+								</option>
+								<inputType id="com.siemens.cdt.iot2000.toolchain.compiler.input.1787761001" name="Compiler Input" superClass="com.siemens.cdt.iot2000.toolchain.compiler.input"/>
+							</tool>
+							<tool id="com.siemens.cdt.iot2000.toolchain.ccompiler.1186053259" name="IOT2000 C++ Compiler" superClass="com.siemens.cdt.iot2000.toolchain.ccompiler"/>
+							<tool id="com.siemens.cdt.iot2000.toolchain.linker.1593882857" name="IOT2000 C++ Linker" superClass="com.siemens.cdt.iot2000.toolchain.linker"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Timeseries.null.964660102" name="Timeseries"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="IOT2000 Release">
+			<resource resourceType="PROJECT" workspacePath="/Timeseries"/>
+		</configuration>
+	</storageModule>
+</cproject>

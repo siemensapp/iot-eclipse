@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.tcf.te.tcf.ui.wizards.NewWizard">
+		<section name="org.eclipse.tcf.te.tcf.ui.wizards.pages.NewTargetWizardPage">
+			<list key="Connection_Name">
+				<item value="TCF Agent"/>
+			</list>
+			<section name="MyTransportTypePanelControl">
+				<section name="TCP">
+					<list key="Host">
+						<item value="192.168.200.3"/>
+					</list>
+				</section>
+				<section name="Custom">
+				</section>
+				<section name="PIPE">
+				</section>
+				<section name="SSL">
+				</section>
+			</section>
+		</section>
+	</section>
+	<section name="org.eclipse.tcf.te.ui.wizards.newWizard.NewWizard">
+		<section name="org.eclipse.tcf.te.ui.wizards.newWizard.NewWizardSelectionPage">
+			<item value="org.eclipse.tcf.te.tcf.ui.wizards.NewTargetWizard" key="filteredTree.selectedWizardDescriptorId"/>
+			<list key="filteredTree.expandedCatogryIds">
+			</list>
+		</section>
+	</section>
+</section>

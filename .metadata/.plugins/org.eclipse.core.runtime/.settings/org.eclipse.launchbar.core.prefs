@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:TCF Agent,org.eclipse.launchbar.core.descriptorType.default\:New configuration
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:New\ configuration/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New\ configuration/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TCF\ Agent/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:TCF\ Agent/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

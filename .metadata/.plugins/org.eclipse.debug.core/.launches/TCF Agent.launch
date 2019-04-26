@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.tcf.te.tcf.launch.type.attach">
+<booleanAttribute key="org.eclipse.tcf.debug.DisconnectOnCtxExit" value="false"/>
+<stringAttribute key="org.eclipse.tcf.te.launch.UUID" value="8c3eb22a-575b-4931-b525-9b006be64336"/>
+<stringAttribute key="org.eclipse.tcf.te.launch.launch_contexts" value="&lt;contexts&gt;&#10;&#9;&lt;context type=&quot;org.eclipse.tcf.protocol.IPeer&quot;&gt;&#10;&#9;&#9;{&#10;  &quot;Host&quot;: &quot;192.168.200.3&quot;,&#10;  &quot;ID&quot;: &quot;88d359a7-5049-4d80-9ba8-03523de3d647&quot;,&#10;  &quot;Name&quot;: &quot;TCF Agent&quot;,&#10;  &quot;Port&quot;: &quot;1534&quot;,&#10;  &quot;TransportName&quot;: &quot;TCP&quot;,&#10;  &quot;autoConnect&quot;: &quot;true&quot;&#10;}&#10;&#9;&lt;/context&gt;&#10;&lt;/contexts&gt;&#10;"/>
+</launchConfiguration>

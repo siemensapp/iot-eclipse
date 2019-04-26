@@ -1,0 +1,690 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html>
+<!DOCTYPE html><html lang="en"><head>
+<title>Siemens Third-Party Software disclosure document</title>
+<meta charset="utf-8" />
+
+<style>
+td, th, tr, table
+	{font-size: 8.0pt;
+	border: 1px solid #2F4F4F;
+	border-collapse: collapse;
+	margin-left:10.4pt;
+	padding:5.4pt 5.4pt 5.4pt 5.4pt;}
+
+table.componentSummary
+	{width:95%; 
+	border: 1px solid #2F4F4F; 
+	table-layout:fixed; 
+	border-collapse: collapse;}
+
+th.componentSummary
+	{padding:1.0pt 1.0pt 1.0pt 1.0pt;}
+		
+td.componentSummary
+	{padding:1.0pt 1.0pt 1.0pt 1.0pt;}
+
+table.componentDetail
+		{font-size: 12.0pt;
+		border-style:none;}
+		
+tr.componentDetail
+		{font-size: 12.0pt;
+		border-style:none;}
+		
+td.componentDetail
+		{font-size: 12.0pt;
+		border-style:none;
+		margin-left:5.1pt;
+		padding:5.4pt 5.4pt 5.4pt 5.4pt;}
+		
+p
+	{font-family:"Arial";
+	font-size: 10.0pt;
+	margin-left:5.1pt;}
+
+p.important
+	{font-family:"Arial";
+	font-size: 12.0pt;}
+
+td.applicationCopyright
+	{width:440.0pt;
+	border:solid windowtext 1.0pt;
+	padding:5.4pt 5.4pt 5.4pt 5.4pt;}
+	
+table.licenseText
+	{border-style:none;
+	width:95%;
+	table-layout:fixed;}
+	
+tr.licenseText
+	{border-style:none;}
+	
+td.licenseText
+	{border-style:none;
+	margin-left:5.1pt;
+	padding:5.4pt 5.4pt 5.4pt 5.4pt;}
+	
+table.copyrightText
+	{width:95%;
+	table-layout:fixed;}
+	
+td.copyrightText
+	{border-style:none;
+	margin-left:0.0pt;
+	padding:5.4pt 5.4pt 5.4pt 5.4pt;}
+	
+h4
+	{font-size: 14.0pt;}
+	
+h5
+	{margin-left:8.0pt;
+	font-size: 12.0pt;}
+</style>	
+</head>
+
+<body><div id="application-info" style="visibility:hidden;" data-template="">
+{{name}}-{{applicationCopyrightStatement}}
+</div>
+
+<h1>
+	English / English
+</h1>
+<p>
+	Note to Resellers: Please pass on this document to your customers to avoid license infringements.
+</p>
+<h2>
+	Third-Party Software Information
+</h2>
+<p>
+	This product, solution or service ("Product") contains third-party software components listed in this document. These components are Open Source Software
+	licensed under a license approved by the Open Source Initiative (<a href="http://www.opensource.org">www.opensource.org</a>) or similar licenses as
+	determined by SIEMENS ("OSS") and/or commercial or freeware software components. With respect to the OSS components, the applicable OSS license conditions
+	prevail over any other terms and conditions covering the Product. The OSS portions of this Product are provided royalty-free and can be used at no charge.
+</p>
+<p>
+	If SIEMENS has combined or linked certain components of the Product with/to OSS components licensed under the GNU LGPL version 2 or later as per the
+	definition of the applicable license, and if use of the corresponding object file is not unrestricted ("LGPL Licensed Module", whereas the LGPL Licensed
+	Module and the components that the LGPL Licensed Module is combined with or linked to is the "Combined Product"), the following additional rights apply, if
+	the relevant LGPL license criteria are met: (i) you are entitled to modify the Combined Product for your own use, including but not limited to the right to
+	modify the Combined Product to relink modified versions of the LGPL Licensed Module, and (ii) you may reverse-engineer the Combined Product, but only to
+	debug your modifications. The modification right does not include the right to distribute such modifications and you shall maintain in confidence any
+	information resulting from such reverse-engineering of a Combined Product.
+</p>
+<p>
+	Certain OSS licenses require SIEMENS to make source code available, for example, the GNU General Public License, the GNU Lesser General Public License and
+	the Mozilla Public License. If such licenses are applicable and this Product is not shipped with the required source code, a copy of this source code can
+	be obtained by anyone in receipt of this information during the period required by the applicable OSS licenses by contacting the following address.
+</p>
+<p>
+	SIEMENS may charge a handling fee of up to 5 Euro to fulfil the request.
+</p>
+<h2>
+	Warranty regarding further use of the Open Source Software
+</h2>
+<p>
+	SIEMENS' warranty obligations are set forth in your agreement with SIEMENS. SIEMENS does not provide any warranty or technical support for this Product or
+	any OSS components contained in it if they are modified or used in any manner not specified by SIEMENS. The license conditions listed below may contain
+	disclaimers that apply between you and the respective licensor. For the avoidance of doubt, SIEMENS does not make any warranty commitment on behalf of or
+	binding upon any third party licensor.
+</p>
+<h1>
+	German / Deutsch
+</h1>
+<p>
+	Hinweis an die Vertriebspartner: Bitte geben Sie dieses Dokument an Ihre Kunden weiter, um urheberrechtliche Lizenzverstöße zu vermeiden.
+</p>
+<h2>
+	Informationen zu Fremdsoftware
+</h2>
+<p>
+	Dieses Produkt, diese Lösung oder dieser Service ("Produkt") enthält die nachfolgend aufgelisteten Fremdsoftwarekomponenten. Bei diesen handelt es sich
+	entweder um Open Source Software, die unter einer von der Open Source Initiative (<a href="http://www.opensource.org">www.opensource.org</a>) anerkannten
+	Lizenz oder einer durch Siemens als vergleichbar definierten Lizenz ("OSS") lizenziert ist und/oder um kommerzielle Software oder Freeware. Hinsichtlich
+	der OSS Komponenten gelten die einschlägigen OSS Lizenzbedingungen vorrangig vor allen anderen auf dieses Produkt anwendbaren Bedingungen. SIEMENS stellt
+	Ihnen die OSS-Anteile dieses Produkts ohne zusätzliche Kosten zur Verfügung.
+</p>
+<p>
+	Soweit SIEMENS bestimmte Komponenten des Produkts mit OSS Komponenten gemäß der Definition der anwendbaren Lizenz kombiniert oder verlinkt hat, die unter
+	der GNU LGPL Version 2 oder einer späteren Version lizenziert werden und soweit die entsprechende Objektdatei nicht unbeschränkt genutzt werden darf
+	("LGPL-lizenziertes Modul", wobei das LGPL-lizenzierte Modul und die Komponenten, mit welchen das LGPL-lizenzierte Modul verbunden ist, nachfolgend
+	"verbundenes Produkt" genannt werden) und die entsprechenden LGPL Lizenzkriterien erfüllt sind, dürfen Sie zusätzlich (i) das verbundene Produkt für eigene
+	Verwendungszwecke bearbeiten und erhalten insbesondere das Recht, das verbundene Produkt zu bearbeiten, um es mit einer modifizierten Version des LGPL
+	lizenzierten Moduls zu verlinken und (ii) das verbundene Produkt rückentwickeln, jedoch ausschließlich zum Zwecke der Fehlerkorrektur Ihrer Bearbeitungen.
+	Das Recht zur Bearbeitung schließt nicht das Recht ein, diese zu distribuieren. Sie müssen sämtliche Informationen, die Sie aus dem Reverse Engineering des
+	verbundenen Produktes gewinnen, vertraulich behandeln.
+</p>
+<p>
+	Bestimmte OSS Lizenzen verpflichten SIEMENS zur Herausgabe des Quellcodes, z.B. die GNU General Public License, die GNU Lesser General Public License sowie
+	die Mozilla Public License. Soweit diese Lizenzen Anwendung finden und das Produkt nicht bereits mit dem notwendigen Quellcode ausgeliefert wurde, so kann
+	eine Kopie des Quellcodes von jedermann während des in der anwendbaren OSS Lizenz angegebenen Zeitraums unter der folgenden Anschrift angefordert werden.
+</p>
+<p>
+	SIEMENS kann für die Erfüllung der Anfrage eine Bearbeitungsgebühr von bis zu 5 Euro in Rechnung stellen.
+</p>
+<h2>
+	Gewährleistung betreffend Verwendung der Open Source Software
+</h2>
+<p>
+	Die Gewährleistungspflichten von SIEMENS sind in dem jeweiligen Vertrag mit SIEMENS geregelt. Soweit Sie das Produkt oder die OSS Komponenten modifizieren
+	oder in einer anderen als der von SIEMENS spezifizierten Weise verwenden, ist die Gewährleistung ausgeschlossen und eine technische Unterstützung erfolgt
+	nicht. Die nachfolgenden Lizenzbedingungen können Haftungsbeschränkungen enthalten, die zwischen Ihnen und dem jeweiligen Lizenzgeber gelten. Klarstellend
+	wird darauf hingewiesen, dass SIEMENS keine Gewährleistungsverpflichtungen im Namen von oder verpflichtend für einen Drittlizenzgeber abgibt.
+</p>
+<h1>
+	Chinese / 中文
+</h1>
+<p>
+	经销商须知： 请将本文件转发给您的客户，以避免构成对许可证的侵权。
+</p>
+<h1>
+	第三方软件信息
+</h1>
+<p>
+	本产品、解决方案或服务（统称“本产品”）中包含本文件列出的第三方软件组件。 这些组件是开放源代码促进会 (<a href="http://www.opensource.org">www.opensource.org</a>)
+	批准的许可证或西门子确定的类似许可证所许可的开放源代码软件（简称“OSS”）和/或商业或免费软件组件。 针对 OSS组件，适用的 OSS 许可证条件优先于涵盖本产品的任何其他条款和条件。 本产品的 OSS 部分免许可费，可以免费使用。
+</p>
+<p>
+	如果西门子已经按照所适用的许可证的定义，根据第 2版或之后版本的GNU LGPL将本产品的某些组件与获得许可证的 OSS组件相组合或关联，并且如果使用相应的目标文件并非不受限制（“LGPL许可模块”，LGPL 许可模块以及与 LGPL
+	许可模块相组合或关联的组件统称为“组合产品”），则在符合以下相关LGPL许可标准的前提下，以下附加权利予以适用： (i) 您有权修改组合产品供自己使用，包括但不限于修改组合产品以重新连接 LGPL 许可模块修改版本的权利，并且 (ii)
+	您可以对组合产品进行逆向工程（但仅限于调试您的修改）。修改权不包括散布此类修改的权利，您应对此类组合产品逆向工程所获得的任何信息予以保密。
+</p>
+<p>
+	某些 OSS 许可证需要西门子提供源代码，例如 GNU 通用公共许可证、GNU 宽通用公共许可证和 Mozilla 公共许可证。如果适用此类许可证并且本产品发货时未随附所需的源代码，收到本信息的任何 人可以在所适用的OSS许可证要求的期限内通过以下地址联系获取这些源代码的副本。
+</p>
+<p>
+	西门子可收取最多 5 欧元的手续费以完成该请求。
+</p>
+<h1>
+	关于进一步使用开放源代码软件的保修
+</h1>
+<p>
+	您与西门子的协议中规定了西门子的保修义务。如果以西门子未指明的任何方式修改或使用本产品或其中包含的任何 OSS组件，西门子不为其提供任何保修或技术支持服务。下面列出的许可证条件可能包含适用于您和相应许可人之间的免责声明。为了避免产生疑问，西门子不代表或约束任何第三方许可人作出任何保修承诺。
+</p>
+<h1>
+	Spanish / Español
+</h1>
+<p>
+	Indicación para los distribuidores: Sírvase entregar este documento a sus clientes para prevenir infracciones de licencia sobre los aspectos de los
+	derechos de autor.
+</p>
+<h2>
+	Información sobre software de terceros
+</h2>
+<p>
+	Este producto, solución o servicio ("producto") contiene los siguientes componentes de software de terceros listados a continuación. Se trata de Open
+	Source Software cuya licencia ha sido otorgada por la Open Source Initiative (<a href="http://www.opensource.org">www.opensource.org</a>) o que corresponde
+	a una licencia definida por Siemens como comparable ("OSS") y/o de software o freeware comercial. En relación a los componentes OSS prevalecen las
+	condiciones de concesión de licencia OSS pertinentes por sobre todas las demás condiciones aplicables para este producto. SIEMENS le entrega estas partes
+	OSS del producto sin coste adicional.
+</p>
+<p>
+	En la medida en que SIEMENS haya combinado o enlazado determinados componentes del producto con componentes OSS según la definición de la licencia
+	aplicable, cuya licencia está sujeta a la GNU LGPL versión 2 o una versión posterior y que no se puede utilizar sin restricciones ("módulo con licencia
+	LGPL", denominándose a continuación el módulo de licencia LGPL y los componentes combinados con el módulo de licencia LGPL, como "producto integrado") y
+	que se hayan cumplido los criterios de licencia LGPL correspondientes, usted está autorizado para adicionalmente (i) procesar el producto conectado para
+	sus propios fines de uso y obtener particularmente el derecho a procesar el producto conectado para enlazarlo con una versión modificada del módulo de
+	licencia LGPL y (ii) realizar ingeniería inversa para el producto conectado, pero exclusivamente para fines de corrección de errores de sus procesamientos.
+	El derecho al procesamiento no incluye el derecho a su distribución. Está obligado a tratar de manera confidencial toda la información que obtiene en el
+	marco de la ingeniería inversa del producto conectado.
+</p>
+<p>
+	Determinadas licencias OSS obligan a Siemens a la publicación del código fuente, p. ej. la GNU General Public License, la GNU Lesser General Public License
+	así como la Mozilla Public License. En la medida que se apliquen estas licencias y que el producto no se haya suministrado con el código fuente necesario,
+	puede solicitarse una copia del código fuente por parte de cualquier persona durante el período indicado en la licencia OSS, mediante envío de la solicitud
+	correspondiente a la siguiente dirección.
+</p>
+<p>
+	SIEMENS puede facturar una tasa de servicio de hasta 5 Euros para la tramitación de la consulta.
+</p>
+<h2>
+	Garantía en relación al uso del Open Source Software
+</h2>
+<p>
+	Las obligaciones de Siemens relacionadas a la garantía del Software, están especificados en el contrato correspondiente con SIEMENS. En caso de modificar
+	el producto o los componentes OSS o usarse de una manera que difiera del modo especificado por SIEMENS, dejará de tener vigencia la garantía y no habrá
+	derechoal soporte técnico asociado a ella. Las siguientes condiciones de concesión de licencia pueden contener limitaciones de responsabilidad que rigen
+	entre su parte y el licenciador correspondiente. Se aclara que SIEMENS no asume obligaciones de garantía en nombre de o en forma vinculante para
+	licenciadores de terceros.
+</p>
+<h1>
+	French / Français
+</h1>
+<p>
+	Note pour les partenaires de distribution: veuillez transmettre ce document à vos clients pour éviter toutes infractions aux dispositions en matière de
+	droits d’auteur.
+</p>
+<h2>
+	Informations sur des logiciels de tiers
+</h2>
+<p>
+	Le présent produit, solution ou service (« Produit ») contient des éléments de logiciels indiqués ci-après, appartenant à des tiers. Ces logiciels sont des
+Open Source Software dont l’utilisation est accordée en vertu d’une licence reconnue par la Open Service Initiative (	<a href="http://www.opensource.org">www.opensource.org</a>), ou d’une licence équivalente définie comme telle par Siemens ("OSS"), et/ou en vertu d’un
+	logiciel commercial ou un freeware. En ce qui concerne les composants OSS, les conditions de licence OSS pertinentes priment sur toutes les autres
+	conditions éventuellement applicables au Produit. SIEMENS met à votre disposition gratuitement et sans frais supplémentaires les parties OSS du Produit.
+</p>
+<p>
+	Si SIEMENS a combiné ou relié certains composants du Produit avec des éléments OSS dont l’utilisation est accordée en vertu de la licence GNU LGPL version
+	2 ou d'une version postérieure, conformément à la licence applicable, et si l’utilisation du fichier objet correspondant est soumise à des restrictions («
+	Module Sous Licence LGPL », le module sous licence LGPL et les composants avec lesquels ce module est lié, sont dénommés ci-après "Produit Lié"), si les
+	critères de licence LGPL applicables sont respectés, vous avez également les droits suivants : (i) droit de modifier le Produit Lié pour votre propre usage
+	, inclus notamment le droit de modifier le Produit Lié afin de le relier différentes versions modifiées du Module Sous Licence LGPL et (ii) droit de faire
+	de la retro-ingénierie sur le Produit Lié, mais exclusivement afin de corriger les éventuels dysfonctionnements des modifications que vous y avez
+	apportées. Le droit de modifier n’inclut pas le droit de distribuer ces modifications et toutes les informations que vous avez obtenues à l’occasion
+	d’opérations de retro-ingénierie du Produit Lié seront strictement confidentielles.
+</p>
+<p>
+	Certaines licences OSS, comme par exemple la GNU General Public License, la GNU Lesser General Public License, ainsi que la Mozilla Public License,
+	obligent SIEMENS à divulguer le code source. Si ces licences sont applicables et si le Produit n’a pas été préalablement livré avec le code source
+	nécessaire, une copie du code source peut être demandée pendant la durée de la licence OSS applicable, en s’adressant à l’adresse suivante.
+</p>
+<p>
+	SIEMENS peut facturer des frais de traitement allant jusqu’à 5 Euro pour répondre à cette demande.
+</p>
+<h2>
+	Garantie relative à l’utilisation du logiciel Open Source
+</h2>
+<p>
+	Les obligations de garantie de SIEMENS sont définies dans votre contrat. Si vous modifiez le Produit ou les éléments OSS y contenus ou si vous les utilisez
+	d’une manière autre que celle spécifiée par SIEMENS, vous perdez le bénéfice de la garantie et aucune assistance technique ne vous sera fournie. Les
+	conditions de licence ci-après peuvent contenir des limitations de responsabilités applicables entre vous et le concédant. En tout état de cause, nous vous
+	signalons que SIEMENS ne prend aucun engagement de garantie au nom et pour le compte de tiers concédants.
+</p>
+<h1>
+	Italian / Italiano
+</h1>
+<p>
+	IMPORTANTE per i partner commerciali: si prega di inoltrare il presente documento ai clienti per evitare violazioni delle condizioni di licenza.
+</p>
+<h2>
+	Informazioni relative al software di altri produttori
+</h2>
+<p>
+	Il presente prodotto, soluzione o servizio ("Prodotto") contengono componenti software di altri produttori elencati qui di seguito. Questi software di
+altri produttori possono essere Open Source Software (OSS), concessi in licenza con una licenza riconosciuta dall'Open Source Initiative (	<a href="http://www.opensource.org">www.opensource.org</a>) o ritenuta equivalente da Siemens ("OSS"), e/o software o freeware commerciali. Per quanto
+	riguarda i componenti dell'OSS, le relative condizioni di licenza pertinenti prevalgono rispetto a tutte le altre condizioni applicabili al presente
+	Prodotto. SIEMENS mette a disposizione i componenti dell'OSS contenuti nel presente Prodotto senza costi aggiuntivi.
+</p>
+<p>
+	Se SIEMENS ha combinato o linkato determinati componenti del Prodotto con prodotti dell'OSS secondo la definizione indicata nella licenza applicabile e
+	concessa ai sensi della licenza GNU LGPL Version 2 o successiva, se il relativo file di oggetto non può essere utilizzato in maniera illimitata ("modulo
+	concesso con licenza LGPL", vale a dire il modulo con licenza LGPL e i componenti a cui detto modello è collegato, denominati qui di seguito "Prodotto
+	Collegato") e, infine, se i relativi criteri di licenza LGPL sono stati soddisfatti, sarà possibile inoltre (i) modificare il Prodotto Collegato per propri
+	scopi di impiego, in particolare elaborare il Prodotto Collegato per linkarlo ad una versione modificata del modulo con licenza LGPL, e (ii) effettuare il
+	reverse engineering del Prodotto Collegato, esclusivamente a fini di correzione degli errori di elaborazione. Il diritto di elaborazione non include il
+	diritto di distribuire tali modifiche. Inoltre, tutte le informazioni ottenute con il reverse engineering del Prodotto Collegato devono essere trattate
+	come riservate.
+</p>
+<p>
+	Determinate licenze OSS obbligano SIEMENS a pubblicare il codice sorgente, ad es. la GNU General Public License, la GNU Lesser General Public License e la
+	Mozilla Public License. Se queste licenze sono applicabili, e il presente Prodotto non è stato già fornito con il necessario codice sorgente, è possibile
+	richiedere una copia di detto codice nel periodo di validità indicato nella licenza OSS applicabile al seguente indirizzo.
+</p>
+<p>
+	Per l'evasione della richiesta, SIEMENS potrà addebitare fino a 5 Euro.
+</p>
+<h2>
+	Garanzia di utilizzo dell'Open Source Software
+</h2>
+<p>
+	Le obbligazioni di garanzia di SIEMENS sono disciplinate dal vostro contratto sottoscritto con SIEMENS. Se si modifica il Prodotto o i componenti dell'OSS,
+	oppure li si utilizza in un modo diverso da quello specificato da SIEMENS, la garanzia e il supporto tecnico decadono. Le seguenti condizioni di licenza
+	possono contenere limitazioni di responsabilità valevoli nel rapporto tra l'utente e il licenziante. Per maggiore chiarezza, si ribadisce che SIEMENS non
+	concede alcuna garanzia a nome di, o vincolante per, qualsiasi terza parte licenziante.
+</p>
+<h1>
+	Japanese / 日本語
+</h1>
+<p>
+	再販業者への注意事項：ライセンス違反を防ぐため、本書を顧客の皆様に配布してください。
+</p>
+<h2>
+	他社製ソフトウェアの使用に関する情報
+</h2>
+<p>
+本製品、ソリューション、またはサービス（以下「本製品」）には、本書に記載の他社製ソフトウェ アのコンポーネントが含まれています。該当するコンポーネントとは、Open Source Initiative (	<a href="http://www.opensource.org">www.opensource.org</a>) によって認可されたライセンスのもとで使用許諾を得たオープンソースソフ トウェア、または SIEMENS
+	によって決定された同様のライセンス（以下「OSS」）、および/または商用もしくはフリーウェアのソフトウェアコンポーネントを指します。本製品を対象とするその他いかなる契約条件に対しても、OSS のコンポーネントに関しては、適用される OSS ライセンス条件が優先するものとします。本製品の OSS
+	の部分に関しては、著作権使用料無料で提供され、無料で使用する ことができます。
+</p>
+<p>
+	SIEMENS が、本製品の特定のコンポーネントと適用されるライセンスの定義の通りに GNU LGPLのバージョン 2 以降のもとで使用許諾を得た OSS コンポーネントを組み合わせるか、関連付け、なおかつ付随するオブジェクト・ファイルの使用が制限されていない場合（以下「LGPL 使用許諾モジュー
+	ル」、それに対し、LGPL使用許諾モジュールが組み合わされているか、関連付けられている LGPL 使用許諾済みモジュールとコンポーネントを「組み合わせ製品」という）、関連する LGPL 使用許諾の基準を満たしていれば、次の追加の権利が適用されます。(i)
+	個人的な使用のために組み合わせ製品を変更することができる（LGPL 使用許諾モジュールの変更したバージョンを再度関連付けるために組み合わせ製品を変更する権利を含むが、それに限定されるものではない）、および (ii)
+	組み合わせ製品にリバースエンジニアリングを行うことができる（ただし変更のデバッグのみ）。変更に関する権利には、該当する変更を配布する権利は含まれていません。また契約者の方は、このような組み合わせ製品のリバースエンジニアリングから生じるいかなる情報に関しても極秘として維持するものとします。
+</p>
+<p>
+	例えば、GNU General Public License （GNU一般公衆利用許諾書）、GNU Lesser General Public License（GNU劣等一般公衆利用許諾書）、Mozilla Public License 等の特定の OSSライセンスでは、SIEMENS
+	がソースコードを利用できるようにする必要があります。該当するライセンスが適用可能であり、本製品が必要とされるソースコードとともに出荷されなかった場合、この情報を受け取った人物が適用される OSS
+	ライセンスによって義務付けられている期間中に以下の住所まで連絡することで、このソースコードのコピーを入手することができます。
+</p>
+<p>
+	リクエストを実行するために SIEMENS では、最高 5 ユーロの手数料を請求する場合があります。
+</p>
+<h2>
+	オープンソースソフトウェアのさらなる使用に関する保証
+</h2>
+<p>
+	SIEMENS の保証義務は、契約者と SIEMENS との契約書に記載されています。本製品を SIEMENS が指定した以外の方法で変更したり、使用したりした場合、SIEMENS では本製品、またはいかなる OSS
+	コンポーネントに対しても保証やテクニカルサポートを提供いたしません。以下に記載のライセンス条件には、 契約者と個別のライセンサーとの間で適用される免責事項が含まれる場合があります。誤解を避けるため、SIEMENSでは他社のライセンサーを代表、または他社を拘束するいかなる保証義務も負いません。
+</p>
+<h1>
+	Russian / Русский
+</h1>
+<p>
+	Информация для партнёров по сбыту: просим передать этот документ вашим клиентам во избежание нарушений лицензионных прав.
+</p>
+<h2>
+	Информация о программном обеспечении сторонних разработчиков
+</h2>
+<p>
+	Настоящий продукт, настоящее решение или сервис ("Продукт") включает в себя программные компоненты сторонних разработчиков, перечисленные ниже. Это
+компоненты программного обеспечения с открытым кодом, имеющие лицензию, признанную организацией Open Source Initiative (	<a href="http://www.opensource.org">www.opensource.org</a>), либо иную лицензию согласно определению компании SIEMENS ("OSS"), и / или компоненты
+	коммерческого либо свободно распространяемого программного обеспечения. В отношении компонентов OSS соответствующие условия лицензии OSS имеют приоритет
+	перед всеми прочими положениями, применимыми к данному Продукту. SIEMENS предоставляет вам долевые права на OSS в отношении данного Продукта на
+	безвозмездной основе.
+</p>
+<p>
+	Если SIEMENS комбинирует или связывает определённые компоненты Продукта с компонентами OSS в соответствии с определением применимой лицензии,
+	лицензированными по версии 2 или более поздней GNU LGPL, и если неограниченное использование соответствующего объектного файла не разрешено ("Модуль по
+	лицензии LGPL", причём Модуль по лицензии LGPL и компоненты, с которыми скомбинирован или связан Модуль по лицензии LGPL, далее именуются "Комбинированный
+	продукт") и выполнены соответствующие критерии лицензии LGPL, вам разрешается дополнительно (i) обрабатывать Комбинированный продукт в собственных целях и,
+	в частности, но не ограничиваясь, обрабатывать Комбинированный продукт таким образом, чтобы связать его с модифицированной версией Модуля по лицензии LGPL,
+	а также (ii) проводить обратную разработку Комбинированного продукта, но только в целях исправления ошибок вашей обработки. Право на обработку не включает
+	в себя право на дистрибуцию. Вы обязаны сохранять конфиденциальность в отношении всей информации, полученной вами в ходе обратной разработки
+	Комбинированного продукта.
+</p>
+<p>
+	Определённые лицензии OSS обязывают SIEMENS раскрывать исходный код, например, GNU General Public License, GNU Lesser General Public License и Mozilla
+	Public License. Если указанные лицензии применимы и Продукт поставлен без необходимого исходного кода, копия исходного кода может быть запрошена
+	обладателем настоящей информации в течение времени, указанного в применимой лицензии OSS, по следующему адресу.
+</p>
+<p>
+	За выполнение запроса SIEMENS может взимать сбор в размере до 5 евро.
+</p>
+<h2>
+	Гарантия в отношении дальнейшего применения программного обеспечения с открытым кодом
+</h2>
+<p>
+	Гарантийные обязательства SIEMENS регулируются соответствующим договором с компанией SIEMENS. Если вы модифицируете Продукт или компоненты OSS либо
+	используете их иным образом, чем указано компанией SIEMENS, гарантия аннулируется, техническая поддержка не предоставляется. Приведённые ниже лицензионные
+	условия могут включать в себя положения об ограничении ответственности, действующие в отношениях между вами и соответствующим лицензиаром. Во избежание
+	сомнений подчёркиваем, что SIEMENS не даёт гарантии от имени сторонних лицензиаров и гарантии, налагающей обязательства на сторонних лицензиаров.
+</p>
+<h1>
+	Open Source Software and/or other third-party software contained in this Product
+</h1>
+<p>
+    If you like to receive a copy of the source code, please contact SIEMENS at the following address:
+</p>
+<p>
+    Siemens AG
+</p>
+<p>
+    LC TE SL
+</p>
+<p>
+    Werner-von-Siemens Str. 60
+</p>
+<p>
+    91052 Erlangen
+</p>
+<p>
+    Germany
+</p>
+
+<p>
+    Subject: Open Source Request (please specify Product name and version)
+</p>
+<p>
+	Please note the following license conditions and copyright notices applicable to Open Source Software and/or other components (or parts thereof):
+</p>
+
+<script id="localizableStrings">
+	// Start of localizable strings (OK to change the order of the placeholders, but don't remove any)
+	var licenseConditionsHeader = "LICENSE CONDITIONS AND COPYRIGHT NOTICES";
+	var labeledComponentNameVersion = "Open Source Software: {0} - {1}";
+	var enclosedYoullFindLicensesAndCopyrights = 
+		"Enclosed you will find the {0}license conditions{1} and {2}copyright notices{3} applicable for {4} - {5}";
+	var enclosedYoullFindJustLicenses = 
+			"Enclosed you will find the {0}license conditions{1} applicable for {3}";
+	var enclosedYoullFindJustCopyrights = 
+		"Enclosed you will find the copyright notices {0}{1} applicable for {2} - {3}";
+	var licenseConditionsLabel = "License conditions:";
+	var copyrightsLabel = "Copyrights:";
+	var componentLinkToDetail = "LICENSE AND COPYRIGHT INFORMATION FOR COMPONENT {{name | upper}} - {{version}}";
+	// End of localizable strings
+</script>
+
+<!-- START OF COMPONENT-LEVEL INFORMATION AND CODE -->
+
+<!-- Component summary (table), populated using Tempo -->
+
+<table class="componentSummary">
+<thead>
+<tr><th class="componentSummary">Component</th><th class="componentSummary">Open Source Software<br />[Yes/No]</th><th class="componentSummary">Acknowledgements/Comment</th><th class="componentSummary">License conditions and copyright notices</th></tr>
+</thead>
+<tbody id="component-summary" data-template="">
+<tr data-template-for="components">
+<!-- Do not change the following two lines -->
+<td id="BlackDuckCompSummCellInsertionPoint" class="componentSummary">{{componentAndVersion}}
+<td class="componentSummary">{{openSourceYesNo}}</td><td class="componentSummary">{{effectiveCustomAcknowledgements}}</td>
+<td class="componentSummary"><a href="#compDetail_{{componentId}}">{{linkToDetailText}}</a></td></td>
+</tr>
+</tbody>
+</table>
+
+<!-- Component detail, populated using core javascript -->
+<table class="componentDetail">
+	<tbody id="component-detail">
+	<!-- Rows are filled in via javascript -->
+	</tbody>
+</table>
+
+<!-- This is the end of the page definition; the rest is code and data: -->
+
+<!-- Important: The following two lines must not be changed. Application Data will be inserted here. -->
+<script id="BlackDuckApplicationDataInsertionPoint">var applicationData = {"components":[{"componentId":"7230511","componentAndVersion":"cJSON - 2016-03-06","componentType":"Open-Source","openSourceYesNo":"YES","effectiveCopyrightStatement":"Copyright (c) 2009 Dave Gamble\n","effectiveLicenses":[{"comment":"Generated by Notices Utility for Mainline CLI","id":"MIT License","name":"MIT License","licenseText":"\u003ch1\u003eMIT License\u003c/h1\u003e\u003cbr\u003ePermission is hereby granted, free of charge, to any person obtaining a copy\u003cbr\u003e  of this software and associated documentation files (the \u0026quot;Software\u0026quot;), to deal\u003cbr\u003e  in the Software without restriction, including without limitation the rights\u003cbr\u003e  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\u003cbr\u003e  copies of the Software, and to permit persons to whom the Software is\u003cbr\u003e  furnished to do so, subject to the following conditions:\u003cbr\u003e \u003cbr\u003e  The above copyright notice and this permission notice shall be included in\u003cbr\u003e  all copies or substantial portions of the Software.\u003cbr\u003e \u003cbr\u003e  THE SOFTWARE IS PROVIDED \u0026quot;AS IS\u0026quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\u003cbr\u003e  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\u003cbr\u003e  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\u003cbr\u003e  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\u003cbr\u003e  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\u003cbr\u003e  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\u003cbr\u003e  THE SOFTWARE.\u003cbr\u003e"}],"linkToDetailText":"LICENSE INFORMATION FOR COMPONENT CJSON - 2016-03-06","detailSectionHeader":"LICENSE CONDITIONS"},{"componentId":"7230175","componentAndVersion":"zf_log - 0.4.0","componentType":"Open-Source","openSourceYesNo":"YES","effectiveCopyrightStatement":"Copyright (c) 2016 wonder-mice\n","effectiveLicenses":[{"comment":"Generated by Notices Utility for Mainline CLI","id":"MIT License","name":"MIT License","licenseText":"\u003ch1\u003eMIT License\u003c/h1\u003e\u003cbr\u003ePermission is hereby granted, free of charge, to any person obtaining a copy\u003cbr\u003eof this software and associated documentation files (the \u0026quot;Software\u0026quot;), to deal\u003cbr\u003ein the Software without restriction, including without limitation the rights\u003cbr\u003eto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\u003cbr\u003ecopies of the Software, and to permit persons to whom the Software is\u003cbr\u003efurnished to do so, subject to the following conditions:\u003cbr\u003eThe above copyright notice and this permission notice shall be included in all\u003cbr\u003ecopies or substantial portions of the Software.\u003cbr\u003eTHE SOFTWARE IS PROVIDED \u0026quot;AS IS\u0026quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\u003cbr\u003eIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\u003cbr\u003eFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\u003cbr\u003eAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\u003cbr\u003eLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\u003cbr\u003eOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\u003cbr\u003eSOFTWARE.\u003cbr\u003e"}],"linkToDetailText":"LICENSE INFORMATION FOR COMPONENT ZF_LOG - 0.4.0","detailSectionHeader":"LICENSE CONDITIONS"},{"componentId":"23608570","componentAndVersion":"CMock - 2.4.3","componentType":"Open-Source","openSourceYesNo":"YES","effectiveCopyrightStatement":"Copyright (c) 2005 David Heinemeier Hansson\nCopyright (c) 2006, Atmel Corporation\nCopyright (c) 2007 Mike Karlesky, Mark VanderVoord, Greg Williams\nCopyright (c) 2007-14 Mike Karlesky, Mark VanderVoord, Greg Williams\nCopyright (c) 2007-2014 Mike Karlesky, Mark VanderVoord, Greg Williams\ncopyright (c) 2007-2013 Cmock Project\ncopyright (c) 2007-2014 Cmock Project","effectiveLicenses":[{"id":"mit2","name":"MIT License"},{"id":"creativecommonsattributionshare-alike30license","name":"Creative Commons Attribution Share Alike 3.0"},{"id":"c_bsd3-clauselicensevariantatmel_7632","name":"BSD 3-Clause License / Variant Atmel"}],"linkToDetailText":"LICENSE AND COPYRIGHT INFORMATION FOR COMPONENT CMOCK - 2.4.3","detailSectionHeader":"LICENSE CONDITIONS AND COPYRIGHT NOTICES"}],"applicationLicenses":{"MIT License":"\u003ch1\u003eMIT License\u003c/h1\u003e\u003cbr\u003ePermission is hereby granted, free of charge, to any person obtaining a copy\u003cbr\u003eof this software and associated documentation files (the \u0026quot;Software\u0026quot;), to deal\u003cbr\u003ein the Software without restriction, including without limitation the rights\u003cbr\u003eto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\u003cbr\u003ecopies of the Software, and to permit persons to whom the Software is\u003cbr\u003efurnished to do so, subject to the following conditions:\u003cbr\u003eThe above copyright notice and this permission notice shall be included in all\u003cbr\u003ecopies or substantial portions of the Software.\u003cbr\u003eTHE SOFTWARE IS PROVIDED \u0026quot;AS IS\u0026quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\u003cbr\u003eIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\u003cbr\u003eFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\u003cbr\u003eAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\u003cbr\u003eLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\u003cbr\u003eOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\u003cbr\u003eSOFTWARE.\u003cbr\u003e","mit2":"The MIT License\u003cbr\u003e \u003cbr\u003eCopyright (c) \u003cyear\u003e \u003ccopyright holders\u003e\u003cbr\u003e \u003cbr\u003ePermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\u003cbr\u003e \u003cbr\u003eThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\u003cbr\u003e \u003cbr\u003eTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.","c_bsd3-clauselicensevariantatmel_7632":"Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\u003cbr\u003e\u003cbr\u003e- Redistributions of source code must retain the above copyright notice, this list of conditions and the disclaimer below. \u003cbr\u003e- Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer below in the documentation and/or other materials provided with the distribution. \u003cbr\u003eAtmel\u0027s name may not be used to endorse or promote products derived from this software without specific prior written permission.\u003cbr\u003e\u003cbr\u003eDISCLAIMER: THIS SOFTWARE IS PROVIDED BY ATMEL \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT ARE DISCLAIMED. IN NO EVENT SHALL ATMEL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.","creativecommonsattributionshare-alike30license":"Creative Commons Legal Code\u003cbr\u003e \u003cbr\u003eAttribution-ShareAlike 3.0 \u003cbr\u003e \u003cbr\u003eCREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN \"AS-IS\" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.\u003cbr\u003eLicense\u003cbr\u003e \u003cbr\u003eTHE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENSE (\"CCPL\" OR \"LICENSE\"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.\u003cbr\u003e \u003cbr\u003eBY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.\u003cbr\u003e \u003cbr\u003e1. Definitions\u003cbr\u003e \u003cbr\u003e\"Adaptation\" means a work based upon the Work, or upon the Work and other pre-existing works, such as a translation, adaptation, derivative work, arrangement of music or other alterations of a literary or artistic work, or phonogram or performance and includes cinematographic adaptations or any other form in which the Work may be recast, transformed, or adapted including in any form recognizably derived from the original, except that a work that constitutes a Collection will not be considered an Adaptation for the purpose of this License. For the avoidance of doubt, where the Work is a musical work, performance or phonogram, the synchronization of the Work in timed-relation with a moving image (\"synching\") will be considered an Adaptation for the purpose of this License.\u003cbr\u003e\"Collection\" means a collection of literary or artistic works, such as encyclopedias and anthologies, or performances, phonograms or broadcasts, or other works or subject matter other than works listed in Section 1(f) below, which, by reason of the selection and arrangement of their contents, constitute intellectual creations, in which the Work is included in its entirety in unmodified form along with one or more other contributions, each constituting separate and independent works in themselves, which together are assembled into a collective whole. A work that constitutes a Collection will not be considered an Adaptation (as defined below) for the purposes of this License.\u003cbr\u003e\"Creative Commons Compatible License\" means a license that is listed at http://creativecommons.org/compatiblelicenses that has been approved by Creative Commons as being essentially equivalent to this License, including, at a minimum, because that license: (i) contains terms that have the same purpose, meaning and effect as the License Elements of this License; and, (ii) explicitly permits the relicensing of adaptations of works made available under that license under this License or a Creative Commons jurisdiction license with the same License Elements as this License.\u003cbr\u003e\"Distribute\" means to make available to the public the original and copies of the Work or Adaptation, as appropriate, through sale or other transfer of ownership.\u003cbr\u003e\"License Elements\" means the following high-level license attributes as selected by Licensor and indicated in the title of this License: Attribution, ShareAlike.\u003cbr\u003e\"Licensor\" means the individual, individuals, entity or entities that offer(s) the Work under the terms of this License.\u003cbr\u003e\"Original Author\" means, in the case of a literary or artistic work, the individual, individuals, entity or entities who created the Work or if no individual or entity can be identified, the publisher; and in addition (i) in the case of a performance the actors, singers, musicians, dancers, and other persons who act, sing, deliver, declaim, play in, interpret or otherwise perform literary or artistic works or expressions of folklore; (ii) in the case of a phonogram the producer being the person or legal entity who first fixes the sounds of a performance or other sounds; and, (iii) in the case of broadcasts, the organization that transmits the broadcast.\u003cbr\u003e\"Work\" means the literary and/or artistic work offered under the terms of this License including without limitation any production in the literary, scientific and artistic domain, whatever may be the mode or form of its expression including digital form, such as a book, pamphlet and other writing; a lecture, address, sermon or other work of the same nature; a dramatic or dramatico-musical work; a choreographic work or entertainment in dumb show; a musical composition with or without words; a cinematographic work to which are assimilated works expressed by a process analogous to cinematography; a work of drawing, painting, architecture, sculpture, engraving or lithography; a photographic work to which are assimilated works expressed by a process analogous to photography; a work of applied art; an illustration, map, plan, sketch or three-dimensional work relative to geography, topography, architecture or science; a performance; a broadcast; a phonogram; a compilation of data to the extent it is protected as a copyrightable work; or a work performed by a variety or circus performer to the extent it is not otherwise considered a literary or artistic work.\u003cbr\u003e\"You\" means an individual or entity exercising rights under this License who has not previously violated the terms of this License with respect to the Work, or who has received express permission from the Licensor to exercise rights under this License despite a previous violation.\u003cbr\u003e\"Publicly Perform\" means to perform public recitations of the Work and to communicate to the public those public recitations, by any means or process, including by wire or wireless means or public digital performances; to make available to the public Works in such a way that members of the public may access these Works from a place and at a place individually chosen by them; to perform the Work to the public by any means or process and the communication to the public of the performances of the Work, including by public digital performance; to broadcast and rebroadcast the Work by any means including signs, sounds or images.\u003cbr\u003e\"Reproduce\" means to make copies of the Work by any means including without limitation by sound or visual recordings and the right of fixation and reproducing fixations of the Work, including storage of a protected performance or phonogram in digital form or other electronic medium.\u003cbr\u003e2. Fair Dealing Rights. Nothing in this License is intended to reduce, limit, or restrict any uses free from copyright or rights arising from limitations or exceptions that are provided for in connection with the copyright protection under copyright law or other applicable laws.\u003cbr\u003e \u003cbr\u003e3. License Grant. Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below:\u003cbr\u003e \u003cbr\u003eto Reproduce the Work, to incorporate the Work into one or more Collections, and to Reproduce the Work as incorporated in the Collections;\u003cbr\u003eto create and Reproduce Adaptations provided that any such Adaptation, including any translation in any medium, takes reasonable steps to clearly label, demarcate or otherwise identify that changes were made to the original Work. For example, a translation could be marked \"The original work was translated from English to Spanish,\" or a modification could indicate \"The original work has been modified.\";\u003cbr\u003eto Distribute and Publicly Perform the Work including as incorporated in Collections; and,\u003cbr\u003eto Distribute and Publicly Perform Adaptations.\u003cbr\u003eFor the avoidance of doubt:\u003cbr\u003e \u003cbr\u003eNon-waivable Compulsory License Schemes. In those jurisdictions in which the right to collect royalties through any statutory or compulsory licensing scheme cannot be waived, the Licensor reserves the exclusive right to collect such royalties for any exercise by You of the rights granted under this License;\u003cbr\u003eWaivable Compulsory License Schemes. In those jurisdictions in which the right to collect royalties through any statutory or compulsory licensing scheme can be waived, the Licensor waives the exclusive right to collect such royalties for any exercise by You of the rights granted under this License; and,\u003cbr\u003eVoluntary License Schemes. The Licensor waives the right to collect royalties, whether individually or, in the event that the Licensor is a member of a collecting society that administers voluntary licensing schemes, via that society, from any exercise by You of the rights granted under this License.\u003cbr\u003eThe above rights may be exercised in all media and formats whether now known or hereafter devised. The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats. Subject to Section 8(f), all rights not expressly granted by Licensor are hereby reserved.\u003cbr\u003e \u003cbr\u003e4. Restrictions. The license granted in Section 3 above is expressly made subject to and limited by the following restrictions:\u003cbr\u003e \u003cbr\u003eYou may Distribute or Publicly Perform the Work only under the terms of this License. You must include a copy of, or the Uniform Resource Identifier (URI) for, this License with every copy of the Work You Distribute or Publicly Perform. You may not offer or impose any terms on the Work that restrict the terms of this License or the ability of the recipient of the Work to exercise the rights granted to that recipient under the terms of the License. You may not sublicense the Work. You must keep intact all notices that refer to this License and to the disclaimer of warranties with every copy of the Work You Distribute or Publicly Perform. When You Distribute or Publicly Perform the Work, You may not impose any effective technological measures on the Work that restrict the ability of a recipient of the Work from You to exercise the rights granted to that recipient under the terms of the License. This Section 4(a) applies to the Work as incorporated in a Collection, but this does not require the Collection apart from the Work itself to be made subject to the terms of this License. If You create a Collection, upon notice from any Licensor You must, to the extent practicable, remove from the Collection any credit as required by Section 4(c), as requested. If You create an Adaptation, upon notice from any Licensor You must, to the extent practicable, remove from the Adaptation any credit as required by Section 4(c), as requested.\u003cbr\u003eYou may Distribute or Publicly Perform an Adaptation only under the terms of: (i) this License; (ii) a later version of this License with the same License Elements as this License; (iii) a Creative Commons jurisdiction license (either this or a later license version) that contains the same License Elements as this License (e.g., Attribution-ShareAlike 3.0 US)); (iv) a Creative Commons Compatible License. If you license the Adaptation under one of the licenses mentioned in (iv), you must comply with the terms of that license. If you license the Adaptation under the terms of any of the licenses mentioned in (i), (ii) or (iii) (the \"Applicable License\"), you must comply with the terms of the Applicable License generally and the following provisions: (I) You must include a copy of, or the URI for, the Applicable License with every copy of each Adaptation You Distribute or Publicly Perform; (II) You may not offer or impose any terms on the Adaptation that restrict the terms of the Applicable License or the ability of the recipient of the Adaptation to exercise the rights granted to that recipient under the terms of the Applicable License; (III) You must keep intact all notices that refer to the Applicable License and to the disclaimer of warranties with every copy of the Work as included in the Adaptation You Distribute or Publicly Perform; (IV) when You Distribute or Publicly Perform the Adaptation, You may not impose any effective technological measures on the Adaptation that restrict the ability of a recipient of the Adaptation from You to exercise the rights granted to that recipient under the terms of the Applicable License. This Section 4(b) applies to the Adaptation as incorporated in a Collection, but this does not require the Collection apart from the Adaptation itself to be made subject to the terms of the Applicable License.\u003cbr\u003eIf You Distribute, or Publicly Perform the Work or any Adaptations or Collections, You must, unless a request has been made pursuant to Section 4(a), keep intact all copyright notices for the Work and provide, reasonable to the medium or means You are utilizing: (i) the name of the Original Author (or pseudonym, if applicable) if supplied, and/or if the Original Author and/or Licensor designate another party or parties (e.g., a sponsor institute, publishing entity, journal) for attribution (\"Attribution Parties\") in Licensor\u0027s copyright notice, terms of service or by other reasonable means, the name of such party or parties; (ii) the title of the Work if supplied; (iii) to the extent reasonably practicable, the URI, if any, that Licensor specifies to be associated with the Work, unless such URI does not refer to the copyright notice or licensing information for the Work; and (iv) , consistent with Ssection 3(b), in the case of an Adaptation, a credit identifying the use of the Work in the Adaptation (e.g., \"French translation of the Work by Original Author,\" or \"Screenplay based on original Work by Original Author\"). The credit required by this Section 4(c) may be implemented in any reasonable manner; provided, however, that in the case of a Adaptation or Collection, at a minimum such credit will appear, if a credit for all contributing authors of the Adaptation or Collection appears, then as part of these credits and in a manner at least as prominent as the credits for the other contributing authors. For the avoidance of doubt, You may only use the credit required by this Section for the purpose of attribution in the manner set out above and, by exercising Your rights under this License, You may not implicitly or explicitly assert or imply any connection with, sponsorship or endorsement by the Original Author, Licensor and/or Attribution Parties, as appropriate, of You or Your use of the Work, without the separate, express prior written permission of the Original Author, Licensor and/or Attribution Parties.\u003cbr\u003eExcept as otherwise agreed in writing by the Licensor or as may be otherwise permitted by applicable law, if You Reproduce, Distribute or Publicly Perform the Work either by itself or as part of any Adaptations or Collections, You must not distort, mutilate, modify or take other derogatory action in relation to the Work which would be prejudicial to the Original Author\u0027s honor or reputation. Licensor agrees that in those jurisdictions (e.g. Japan), in which any exercise of the right granted in Section 3(b) of this License (the right to make Adaptations) would be deemed to be a distortion, mutilation, modification or other derogatory action prejudicial to the Original Author\u0027s honor and reputation, the Licensor will waive or not assert, as appropriate, this Section, to the fullest extent permitted by the applicable national law, to enable You to reasonably exercise Your right under Section 3(b) of this License (right to make Adaptations) but not otherwise.\u003cbr\u003e5. Representations, Warranties and Disclaimer\u003cbr\u003e \u003cbr\u003eUNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.\u003cbr\u003e \u003cbr\u003e6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\u003cbr\u003e \u003cbr\u003e7. Termination\u003cbr\u003e \u003cbr\u003eThis License and the rights granted hereunder will terminate automatically upon any breach by You of the terms of this License. Individuals or entities who have received Adaptations or Collections from You under this License, however, will not have their licenses terminated provided such individuals or entities remain in full compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will survive any termination of this License.\u003cbr\u003eSubject to the above terms and conditions, the license granted here is perpetual (for the duration of the applicable copyright in the Work). Notwithstanding the above, Licensor reserves the right to release the Work under different license terms or to stop distributing the Work at any time; provided, however that any such election will not serve to withdraw this License (or any other license that has been, or is required to be, granted under the terms of this License), and this License will continue in full force and effect unless terminated as stated above.\u003cbr\u003e8. Miscellaneous\u003cbr\u003e \u003cbr\u003eEach time You Distribute or Publicly Perform the Work or a Collection, the Licensor offers to the recipient a license to the Work on the same terms and conditions as the license granted to You under this License.\u003cbr\u003eEach time You Distribute or Publicly Perform an Adaptation, Licensor offers to the recipient a license to the original Work on the same terms and conditions as the license granted to You under this License.\u003cbr\u003eIf any provision of this License is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this License, and without further action by the parties to this agreement, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.\u003cbr\u003eNo term or provision of this License shall be deemed waived and no breach consented to unless such waiver or consent shall be in writing and signed by the party to be charged with such waiver or consent.\u003cbr\u003eThis License constitutes the entire agreement between the parties with respect to the Work licensed here. There are no understandings, agreements or representations with respect to the Work not specified here. Licensor shall not be bound by any additional provisions that may appear in any communication from You. This License may not be modified without the mutual written agreement of the Licensor and You.\u003cbr\u003eThe rights granted under, and the subject matter referenced, in this License were drafted utilizing the terminology of the Berne Convention for the Protection of Literary and Artistic Works (as amended on September 28, 1979), the Rome Convention of 1961, the WIPO Copyright Treaty of 1996, the WIPO Performances and Phonograms Treaty of 1996 and the Universal Copyright Convention (as revised on July 24, 1971). These rights and subject matter take effect in the relevant jurisdiction in which the License terms are sought to be enforced according to the corresponding provisions of the implementation of those treaty provisions in the applicable national law. If the standard suite of rights granted under applicable copyright law includes additional rights not granted under this License, such additional rights are deemed to be included in the License; this License is not intended to restrict the license of any rights under applicable law.\u003cbr\u003eCreative Commons Notice\u003cbr\u003e \u003cbr\u003eCreative Commons is not a party to this License, and makes no warranty whatsoever in connection with the Work. Creative Commons will not be liable to You or any party on any legal theory for any damages whatsoever, including without limitation any general, special, incidental or consequential damages arising in connection to this license. Notwithstanding the foregoing two (2) sentences, if Creative Commons has expressly identified itself as the Licensor hereunder, it shall have all rights and obligations of Licensor.\u003cbr\u003e \u003cbr\u003eExcept for the limited purpose of indicating to the public that the Work is licensed under the CCPL, Creative Commons does not authorize the use by either party of the trademark \"Creative Commons\" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons\u0027 then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time. For the avoidance of doubt, this trademark restriction does not form part of the License.\u003cbr\u003e \u003cbr\u003eCreative Commons may be contacted at http://creativecommons.org/."},"id":"24141492","name":"Siemens MindConnect Library","version":"3.1.0.0","locked":true,"ownerId":"2300127"}</script>
+
+<!-- Important: The following two lines must not be changed. Black Duck javascript code will be inserted here. -->
+<script id="BlackDuckJavaScriptInsertionPoint">	<!-- For Tempo: Embed tempo.min.js -->
+	eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('B R(a,b,c){\'2o 2p\';6.1H=a;6.3D=b;6.2q=c;v 6}R.11={1u:\'3E\',2r:\'3F\',2s:\'3G\',22:\'3H\',2t:\'3I\',2u:\'3J\'};C 2v=(B(n){\'2o 2p\';C o=/(\\d+)(\\d{3})/;C q;C u={1I:B(a){C b=\'(\';O(C c 1o a){y(a.1i(c)){y(b.F>1){b+=\'|\'}b+=c}}v b+\')[\\\\.]?\'+\'(?!\\\\w)\'},1j:B(a,b,c){1J(a.F<c){a=b+a}v a},1p:B(a){v a.T(/^\\s*([\\S\\s]*?)\\s*$/,\'$1\')},1v:B(a,b){v(a.19(b)===0)},23:B(a){y(a!==J&&a!==I&&a.U!==I){O(C i=a.U.F-1;i>=0;i--){y(a.U[i]!==I&&a.U[i].V!==I&&(a.U[i].V(\'N-Q\')!==J||a.U[i].V(\'N-Q-O\')!==J)){a.U[i].1K.3K(a.U[i])}}}},2w:B(a){C p=a.1K;1J(p){y(6.17(p,\'N-Q\')||6.17(p,\'N-Q-O\')){v X}p=p.1K}v 1k},2x:B(a,b){v a.1L()===b.1L()},2y:B(a,b){y(3L.3M.19("3N")>-1&&u.2x(a.3O,\'3P\')){C c=q.16.2z(\'3Q\');c.1a=\'<2A><2B>\'+b+\'</2B></2A>\';C d=3;1J(d--){c=c.2C}c.2D(\'N-Q\',\'\');v c}K{a.1a=b;v a}},1b:B(a){y(1c(a)==="1w"){y(a===J){v"J"}y(a.1q===([]).1q){v"1M"}y(a.1q===(P 2E()).1q){v"24"}y(a.1q===(P 1d()).1q){v"3R"}y(1c 2F==="1w"?a 2G 2F:a&&1c a==="1w"&&a.3S===1&&1c a.3T==="25"){v\'2q\'}y(1c 2H!==\'I\'&&a 2G 2H){v\'2I\'}v"1w"}v 1c(a)},17:B(a,b){y(a!==I){y(a.2J!==I){v a.2J(b)}K y(a.V!==I){v a.V(b)!==J}}v 1k},1r:B(a,b){y(a!==I){a.2D(b,\'\');y(a.1N){a.1N(b)}}},2K:B(a,b){C c={};O(C d 1o a){y(a.1i(d)){c[d]=a[d]}}O(C e 1o b){y(b.1i(e)){c[e]=b[e]}}v c},1e:B(a,b){y(a!==I&&a.F>0){O(C i=0;i<a.F;i++){y(b.1H===a[i].1H){a[i].14(b)}}}},L:B(a){y(u.1b(a)===\'25\'){y(a===\'*\'){a=q.16.2L(\'3U\')[0]}K{a=q.16.26(a)}}K y(u.1b(a)===\'2I\'&&a.F>0){a=a[0]}v a},2M:B(a,b){y(!3V.27.19){O(C i=0;i<6.F;i++){y(6[i]===b){v X}}v 1k}K{v a.19(b)>-1}}};B 1l(a,b){6.2N=a;6.1x=J;6.1y={};6.L=J;6.1O=b!==I?b:J;6.1P=X;6.28=\'\\\\{\\\\{\';6.29=\'\\\\}\\\\}\';6.1z=\'\\\\{%\';6.1A=\'%\\\\}\';6.2a=1k;6.1m={};y(1c a!==\'I\'){O(C c 1o a){y(c===\'3W\'){6.28=a[c].W(0,a[c].F/2);6.29=a[c].W(a[c].F/2)}K y(c===\'3X\'){6.1z=a[c].W(0,a[c].F/2);6.1A=a[c].W(a[c].F/2)}K y(1c 6[c]!==\'I\'){6[c]=a[c]}}}v 6}1l.27={2O:B(b,c){B 1Q(a){v a.2P?a.2P.16.3Y.1a:a.2Q?a.2Q.2b.1a:a.16.2b.1a}y(q.16.26(b)!==J){c(1Q(q.16.26(b)))}K{C d=q.16.2z(\'3Z\');d.40=b;d.Z=b;d.18.41=0;d.18.42=0;d.43=b;y(d.2R){d.2R(\'2S\',B(){c(1Q(d))})}K{d.2S=B(){c(1Q(d))}}q.16.2b.1R(d)}},2T:B(b,c,d,e){v B(a){u.1r(b,\'N-Q-1s\');b.1a=a;c.1B(d,e)}},1B:B(a,b){6.L=a;C c=a.2L(\'*\');C d=X;O(C i=0;i<c.F;i++){y(d===X&&b!==I&&u.17(c[i],\'N-Q-1s\')){C e=c[i];y(e.V(\'N-Q-1s\').F>0){C f=6;d=1k;6.2O(e.V(\'N-Q-1s\'),6.2T(e,f,a,b))}}K y(u.17(c[i],\'N-Q-44\')){c[i].18.1S=\'45\'}}y(d){C g={};O(C s=0;s<c.F;s++){y(c[s].V!==I){y(u.17(c[s],\'N-Q-O\')&&c[s].V(\'N-Q-O\').F>0&&6.1O===c[s].V(\'N-Q-O\')&&!g[6.1O]){6.1T(c[s]);g[6.1O]=X}K y(u.17(c[s],\'N-Q\')&&!u.2w(c[s])){6.1T(c[s])}}}y(6.1x===J){6.1T(a)}u.23(6.L);y(b!==I){b(6)}}},1T:B(b){C c=b.2c(X);y(c.18.1N){c.18.1N(\'1S\')}K y(c.18.2U){c.18.2U(\'1S\')}K{c.18.1S=\'46\'}6.L=b.1K;C d=1k;O(C a=0;a<c.1m.F;a++){C e=c.1m[a];y(u.1v(e.Z,\'N-y-\')){C f;y(e.15===\'\'){f=X}K{f=\'\\\'\'+e.15+\'\\\'\'}6.1y[e.Z.W(8,e.Z.F)+\'==\'+f]=c;u.1r(c,e.Z);d=X}K y(e.Z===\'N-47\'){6.1y[e.15+\'!==I\']=c;u.1r(c,e.Z);d=X}K y(e.Z===\'N-48-49\'){6.2a=X}K y(!u.1v(e.Z,\'N-Q\')&&u.1v(e.Z,\'N-\')){6.1m[e.Z.W(5,e.Z.F)]=e.15}}y(!d){6.1x=c}},2V:B(i){O(C a 1o 6.1y){y(1f(\'i.\'+a)){v 6.1y[a].2c(X)}}y(6.1x){v 6.1x.2c(X)}}};B 1t(a){6.G=a;6.14=[];6.1C=1k;6.2W=P 1d(6.G.28+\'[ ]?([A-2X-2d-9$\\\\.2Y\\\\[\\\\]]*?)([ ]?\\\\|[ ]?.*?)?[ ]?\'+6.G.29,\'g\');6.2Z=P 1d(6.G.1z+\'[ ]?([\\\\s\\\\S]*?)( [\\\\s\\\\S]*?)?[ ]?\'+6.G.1A+\'(([\\\\s\\\\S]*?)(?=\'+6.G.1z+\'[ ]?4a\\\\1[ ]?\'+6.G.1A+\'))?\',\'g\');6.30=P 1d(\'\\\\|[ ]?(?=\'+u.1I(6.1U)+\')\',\'g\');6.1V=J;v 6}1t.27={4b:B(a,b){6.14.31({\'1H\':a,\'14\':b});v 6},2e:B(a,b,i,t){C c=J;y(u.1v(b,\'32.\')){v 1f(\'t.\'+b.W(7,b.F))}y(b===\'.\'){c=1f(\'i\')}K y(b===\'6\'||b.1W(/6[\\\\[\\\\.]/)!==J){c=1f(\'i\'+b.W(4,b.F))}K y(u.1b(i)===\'1M\'){c=1f(\'i\'+b)}K{c=1f(\'i.\'+b)}v c},2f:B(j,k,i,l){C m=6;v l.T(6.2W,B(a,b,c){1D{C d=j.2e(j,b,i,k);y(c!==I&&c!==\'\'){C e=u.1p(u.1p(c).W(1)).1n(m.30);O(C p=0;p<e.F;p++){C g=u.1p(e[p]);C h=[];y(g.19(\' \')>-1){C f=g.W(g.19(\' \')).T(/^[ \']*|[ \']*$/g,\'\');h=f.1n(/(?:[\\\'"])[ ]?,[ ]?(?:[\\\'"])/);g=g.W(0,g.19(\' \'))}d=j.1U[g](d,h)}}y(d!==I){y(m.G.1P){d=m.1U.1P(d,{})}v d}}1E(1g){m.1F.1G(m,1g)}v\'\'})},33:B(e,f,i,g,h){v g.T(h,B(a,b,c){1D{C d=e.2e(e,b,i,f);y(d!==I){y(u.1b(d)===\'25\'){v\'\\\'\'+d+\'\\\'\'}K{v d}}}1E(1g){34.1F.1G(34,1g)}v I})},35:B(d,e,f){v f.T(/(\\b[A-2d-9]+?)(?:="[^"\']*?"[^>]*?)N-\\1="(.*?)"/g,B(a,b,c){y(c!==\'\'){v b+\'="\'+c+\'"\'}v a})},2g:B(f,g,h){v h.T(6.2Z,B(a,b,c,d){y(f.2h.1i(b)){c=c.W(c.19(\' \')).T(/^[ ]*|[ ]*$/g,\'\');C e=c.1n(/(?:[\'"])[ ]?,[ ]?(?:[\'"])/);v f.2h[b](f,g,a,e,d)}K{v\'\'}})},1X:B(a){6.1C=X;y(a===I){a=P R(R.11.1u,I,I)}u.1e(6.14,a);v 6},36:B(i,c){C d=6;v B(a){C r=P 1t(a);C b=J;y(i.1i(c.1n(\'.\')[0])){b=1f(\'i.\'+c);y(b){1D{y(u.1b(b)===\'1M\'){O(C s=0;s<b.F;s++){b[s].2i=B(){v i}()}}K{b.2i=B(){v i}()}}1E(1g){d.1F.1G(d,1g)}}}r.37(b)}},38:B(b,c,i,d){C e=P 1d(\'(?:4c[\\\\.]?)((32|\\\\[|\'+u.1I(i)+\'|6)([A-2X-2d-9$\\\\.2Y\\\\[\\\\]]+)?)\',\'g\');C f=b.G.2V(i);C g=u.2K(c,b.G.1m);y(u.17(f,\'N-Q-O\')){u.1r(f,\'N-Q-O\')}y(u.17(f,\'N-Q-1s\')){u.1r(f,\'N-Q-1s\')}y(f&&i){u.1e(6.14,P R(R.11.2r,i,f));C h=f.1a.1W(/N-Q-O="([^"]+?)"/g);y(h){O(C p=0;p<h.F;p++){C j=h[p].1W(/N-Q-O="([^"]+?)"/);y(j&&j[1]){C t=P 1l(b.G.2N,j[1]);1D{t.1B(f,6.36(i,j[1]))}1E(1g){6.1F.1G(6,1g)}}}}O(C a=0;a<f.1m.F;a++){C k=f.1m[a];y(k!==J&&k.4d&&k.15!==J&&k.15.F>0&&k.Z.1W(/18|N-Q.*/)===J){k.15=6.2g(6,i,k.15);k.15=6.2f(6,g,i,k.15)}}C l=f.1a.T(/%39%39/g,\'{{\').T(/%3a%3a/g,\'}}\');l=6.2g(6,i,l);l=6.2f(6,g,i,l);l=6.33(6,g,i,l,e);l=6.35(6,i,l);d.1R(u.2y(f,l));u.1e(6.14,P R(R.11.2s,i,f))}},2j:B(a){y(a){C b={};C c=q.16.4e();y(u.1b(a)===\'1w\'){y(6.G.2a){C d=[];O(C e 1o a){y(a.1i(e)&&e!==\'2i\'){C f={};f.4f=e;f.15=a[e];d.31(f)}}a=d}K{a=[a]}}O(C i=0;i<a.F;i++){b.4g=i;6.38(6,b,a[i],c)}v c}v J},4h:B(a){y(a!==I){6.G.L=u.L(a)}v 6},37:B(a){y(!6.1C){6.1X(P R(R.11.1u,a,6.G.L))}6.3b();6.2k(a);v 6},2k:B(a){y(!6.1C){6.1X(P R(R.11.1u,a,6.G.L))}C b=6.2j(a);y(b!==J&&6.G.L!==J){y(b!==J){C c=J;O(C i=6.G.L.U.F;i>=0;i--){y(6.G.L.U[i]!==I&&6.G.L.U[i].V!==I&&6.G.L.U[i].V(\'N-4i-Q\')!==J){c=6.G.L.U[i]}}y(c===J){c=6.G.L.2C}y(c!==J){6.G.L.3c(b,c)}K{6.G.L.1R(b)}}}u.1e(6.14,P R(R.11.22,a,6.G.L));v 6},3d:B(a){y(!6.1C){6.1X(P R(R.11.1u,a,6.G.L))}C b=6.2j(a);y(b!==J){C c=J;O(C i=0;i<6.G.L.U.F;i++){y(6.G.L.U[i]!==I&&6.G.L.U[i].V!==I&&6.G.L.U[i].V(\'N-3e-Q\')!==J){c=6.G.L.U[i]}}y(c===J){c=6.G.L.4j}y(c!==J){y(c.3f!==J&&c.V&&c.V(\'N-3e-Q\')!==J){c=c.3f}6.G.L.3c(b,c)}K{6.G.L.1R(b)}}u.1e(6.14,P R(R.11.22,a,6.G.L));v 6},4k:B(a){6.1V=a;v 6},1F:B(a){y(6.1V!==J){6.1V.1G(6,a)}},3b:B(){u.1e(6.14,P R(R.11.2t,{},6.G.L));u.23(6.G.L);u.1e(6.14,P R(R.11.2u,{},6.G.L))},2h:{\'y\':B(b,i,c,d,e){C f=u.1I(i);C g=d[0].T(/&3g;/g,\'&\').T(/&3h;/g,\'>\').T(/&3i;/g,\'<\');g=g.T(P 1d(f,\'4l\'),B(a){v\'i.\'+a});C h=P 1d(b.G.1z+\'[ ]?K[ ]?\'+b.G.1A,\'g\');C j=e.1n(h);y(1f(g)){v j[0]}K y(j.F>1){v j[1]}v\'\'}},1U:{\'1P\':B(a,b){v a.2l().T(/[&<>]/g,B(c){v{\'&\':\'&3g;\',\'<\':\'&3i;\',\'>\':\'&3h;\'}[c]||c})},\'3j\':B(a,b){v 3j(a.2l())},\'3k\':B(a,b){v 3k(a.2l())},\'4m\':B(a,b){y(a!==I){C c=0;C d=\'...\';y(b.F>0){c=3l(b[0],10)}y(b.F>1){d=b[1]}y(a.F>c-3){v a.3m(0,c-3)+d}v a}},\'4n\':B(a,b){y(a!==I){y(b.F===1){a=4o(a+\'\').1h(3l(b[0],10))}C x=(a+\'\').1n(\'.\');C c=x[0];C d=x.F>1?\'.\'+x[1]:\'\';1J(o.3n(c)){c=c.T(o,\'$1\'+\',\'+\'$2\')}v c+d}},\'4p\':B(a,b){v a.3o()},\'4q\':B(a,b){v a.1L()},\'4r\':B(a,b){C c=[];y(b!==I&&b.F==1){c=b[0].1n(\' \')}v a.T(/\\w[a-z]\\S*/g,B(m,i){y(c.F===0||!(u.2M(c,m)&&i>0)){v m.4s(0).3o()+m.3m(1).1L()}v m})},\'1p\':B(a,b){v u.1p(a)},\'T\':B(a,b){y(a!==I&&b.F===2){v a.T(P 1d(b[0],\'g\'),b[1])}v a},\'2k\':B(a,b){y(a!==I&&b.F===1){v a+\'\'+b[0]}v a},\'3d\':B(a,b){y(a!==I&&b.F===1){v b[0]+\'\'+a}v a},\'3p\':B(a,b){y(b.F===1&&a!==I&&u.1b(a)===\'1M\'){v a.3p(b[0])}v a},\'4t\':B(a,b){y(a!==I&&a!==J){v a}y(b.F===1){v b[0]}v a},\'24\':B(d,e){y(d!==I&&e.F>=1&&e.F<=2){C f=P 2E(d);C g=e[0];C h=(e.F===2&&e[1]===\'4u\');y(g===\'4v\'){v f.4w()}K y(g===\'4x\'){v f.4y()}K y(g===\'24\'){v f.4z()}K y(g===\'4A\'){v f.4B()}K{C i=[\'4C\',\'4D\',\'4E\',\'4F\',\'4G\',\'4H\',\'4I\',\'4J\',\'4K\',\'4L\',\'4M\',\'4N\'];C j=[\'4O\',\'4P\',\'4Q\',\'4R\',\'4S\',\'4T\',\'4U\'];C k={\'4V\':B(a){v(h?a.3q():a.3r())},\'4W\':B(a){v(h?a.3q():a.3r()).1h().W(2)},\'4X\':B(a){v i[(h?a.1Y():a.1Z())]},\'4Y\':B(a){v i[(h?a.1Y():a.1Z())].W(0,3)},\'4Z\':B(a){v u.1j(((h?a.1Y():a.1Z())+1).1h(),\'0\',2)},\'M\':B(a){v(h?a.1Y():a.1Z())+1},\'50\':B(a){v u.1j((h?a.3s():a.3t()).1h(),\'0\',2)},\'D\':B(a){v(h?a.3s():a.3t())},\'51\':B(a){v j[(h?a.2m():a.2n())]},\'52\':B(a){v j[(h?a.2m():a.2n())].W(0,3)},\'E\':B(a){v(h?a.2m():a.2n())},\'53\':B(a){v u.1j((h?a.20():a.21()).1h(),\'0\',2)},\'H\':B(a){v(h?a.20():a.21())},\'h\':B(a){C b=(h?a.20():a.21());v b<13?(b===0?12:b):b-12},\'54\':B(a){v u.1j((h?a.3u():a.3v()).1h(),\'0\',2)},\'m\':B(a){v(h?a.3u():a.3v())},\'55\':B(a){v u.1j((h?a.3w():a.3x()).1h(),\'0\',2)},\'s\':B(a){v(h?a.3w():a.3x())},\'56\':B(a){v u.1j((h?a.3y():a.3z()).1h(),\'0\',3)},\'S\':B(a){v(h?a.3y():a.3z())},\'a\':B(a){v(h?a.20():a.21())<12?\'57\':\'58\'}};g=g.T(/(\\\\)?(Y{2,4}|M{1,4}|D{1,2}|E{1,4}|H{1,2}|h|m{1,2}|s{1,2}|S{1,3}|a)/g,B(a,b,c){y(!b){y(k.1i(c)){v k[c](f)}}v c});v g}}v\'\'}}};n.3A=B(a){q=a;v 6};n.59=B(b,c,d){b=u.L(b);C e=P 1l(c);y(d!==I){e.1B(b,B(a){d(P 1t(a))})}K{e.1B(b);v P 1t(e)}};n.3B={\'G\':1l,\'3C\':u};n.3n={\'3C\':u,\'G\':P 1l({}),\'5a\':P 1t(P 1l({}))};1D{n.3A(5b)}1E(e){3B.5c=n}v n})(2v||{});',62,323,'||||||this|||||||||||||||||||||||||return|||if|||function|var|||length|templates||undefined|null|else|container||data|for|new|template|TempoEvent||replace|childNodes|getAttribute|substring|true||name||Types|||listener|value|document|hasAttr|style|indexOf|innerHTML|typeOf|typeof|RegExp|notify|eval|err|toFixed|hasOwnProperty|pad|false|Templates|attributes|split|in|trim|constructor|removeAttr|file|Renderer|RENDER_STARTING|startsWith|object|defaultTemplate|namedTemplates|tag_brace_left|tag_brace_right|parse|started|try|catch|_onError|call|type|memberRegex|while|parentNode|toLowerCase|array|removeAttribute|nestedItem|escape|contents|appendChild|display|createTemplate|filters|errorHandler|match|starting|getUTCMonth|getMonth|getUTCHours|getHours|RENDER_COMPLETE|clearContainer|date|string|getElementById|prototype|var_brace_left|var_brace_right|dataIsMap|body|cloneNode|z0|_getValue|_replaceVariables|_applyTags|tags|_parent|_createFragment|append|toString|getUTCDay|getDay|use|strict|element|ITEM_RENDER_STARTING|ITEM_RENDER_COMPLETE|BEFORE_CLEAR|AFTER_CLEAR|Tempo|isNested|equalsIgnoreCase|getElement|createElement|table|tbody|lastChild|setAttribute|Date|HTMLElement|instanceof|jQuery|jquery|hasAttribute|merge|getElementsByTagName|arrayContains|params|load|contentWindow|contentDocument|attachEvent|onload|_insertTemplate|removeProperty|templateFor|varRegex|Za|_|tagRegex|filterSplitter|push|_tempo|_replaceObjects|self|_applyAttributeSetters|_renderNestedItem|render|renderItem|7B|7D|clear|insertBefore|prepend|before|nextSibling|amp|gt|lt|encodeURI|decodeURI|parseInt|substr|test|toUpperCase|join|getUTCFullYear|getFullYear|getUTCDate|getDate|getUTCMinutes|getMinutes|getUTCSeconds|getSeconds|getUTCMilliseconds|getMilliseconds|init|exports|utils|item|render_starting|item_render_starting|item_render_complete|render_complete|before_clear|after_clear|removeChild|navigator|appVersion|MSIE|tagName|tr|div|regex|nodeType|nodeName|html|Array|var_braces|tag_braces|documentElement|iframe|id|height|width|src|fallback|none|block|has|from|map|end|when|__|specified|createDocumentFragment|key|index|into|after|firstChild|errors|gi|truncate|format|parseFloat|upper|lower|titlecase|charAt|default|UTC|localedate|toLocaleDateString|localetime|toLocaleTimeString|toDateString|time|toTimeString|January|February|March|April|May|June|July|August|September|October|November|December|Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|YYYY|YY|MMMM|MMM|MM|DD|EEEE|EEE|HH|mm|ss|SSS|AM|PM|prepare|renderer|window|tempo'.split('|'),0,{}))
+
+
+	var componentDetailsRowIndex = 0;
+
+	
+	window.onload = function () {
+		console.log("Starting window.onload");
+		
+		/* Populate the simple parts of the page using Tempo */
+		console.log("Populating application-info");
+		Tempo.prepare('application-info').render(applicationData);
+		console.log("Populating component-summary");
+		Tempo.prepare('component-summary').render(applicationData);
+		
+		
+		
+		/* Define a sprintf-like format function, if not already defined */
+		console.log("About to test for format function");
+		if (!String.prototype.format) {
+			console.log("Defining sprintf function");
+		  String.prototype.format = function() {
+		    var args = arguments;
+		    return this.replace(/{(\d+)}/g, function(match, number) { 
+		      return typeof args[number] != 'undefined'
+		        ? args[number]
+		        : match
+		      ;
+		    });
+		  };
+		}
+		
+		
+	
+		/* 
+		 * The component details are more complicated because for each component license, we need
+		 * to lookup the license text in a separate map (using the license id). This lookup requires
+		 * javascript. The javascript below fills in the rows of the component-details table.
+		 */
+		var table = document.getElementById("component-detail");
+		table.innerHTML = "";
+		for (var componentIndex = 0; componentIndex < applicationData.components.length; componentIndex++) {
+			addComponentDetailRow(table, applicationData.components[componentIndex]);
+		}
+	}
+	
+	/**
+	 * Add a component (row) to the component details table, which includes the license text and copyrights tables
+	 * within it.
+	 *
+	 * @param component
+	 */
+	function addComponentDetailRow(table, component) {
+	
+		if ( (isUndefinedOrEmpty(component.effectiveLicenses)) && (isUndefinedOrEmpty(component.effectiveCopyrightStatement))) {
+			return;
+		}
+		
+		/* Set the class on the table so it picks up the right style settings */
+		table.className = "componentDetail";
+		
+		/* Create the row */
+		var row = table.insertRow(componentDetailsRowIndex++);
+		row.className = "componentDetail";
+		
+		var cellContents = constructComponentDetailCell(
+			component.componentAndVersion, 
+			component.componentId, 
+			component.effectiveLicenses, 
+			component.effectiveCopyrightStatement,
+			component.componentType,
+			component.detailSectionHeader);
+		var cell = row.insertCell(0);
+		cell.className = "componentDetail";
+		cell.innerHTML = cellContents;
+	}
+	
+	/**
+	 * Return the value of the given variable, or a non-breaking-space if it
+	 * is undefined. This ensures there is something to display, even if it
+	 * is invisible, which can be better than seeing "undefined" on the page.
+	 */
+	function getValueOrSpace(stringVariable) {
+		var stringVariableWithValue;
+		if (typeof stringVariable != 'undefined') {
+			stringVariableWithValue = stringVariable;
+		} else {
+			stringVariableWithValue = "&nbsp;";
+		}
+		return stringVariableWithValue;
+	}
+	
+	function isUndefinedOrEmpty(stringVariable) {
+		console.log("isUndefinedOrEmpty() testing: " + stringVariable);
+		if (!stringVariable) {
+			return true;
+		}
+		if (/^\s*$/.test(stringVariable)) {
+			return true;
+		}
+		if ((typeof stringVariable == 'undefined') || (stringVariable.length == 0)) {
+			return true;
+		}
+	}
+	
+	/**
+	 * Construct component details table cell, which includes the license text and copyrights tables.
+	 */
+	function constructComponentDetailCell(componentNameVersion, componentId, componentLicenseSet, effectiveCopyrightStatement, componentType,
+			detailSectionHeader) {
+		console.log("Entering constructComponentDetailCell for " + componentNameVersion);
+
+		var componentRowTextComponentHeaderTitle = "<h4><br /><a name='compDetail_" + componentId + "'>" + detailSectionHeader + "</a></h4>";
+		var componentRowTextComponentHeaderComponent = "<h4>" + labeledComponentNameVersion.format(componentType, componentNameVersion) + "</h4>";
+		
+		var componentRowTextComponentHeaderEnclosed;
+		console.log("componentType: '" + componentType + "'");
+		
+		if  (isUndefinedOrEmpty(componentLicenseSet)) {
+			// There is only a copyright section
+			console.log("Omitting license text section");
+			componentRowTextComponentHeaderEnclosed = "<p class='important'>" + enclosedYoullFindJustCopyrights.format("<a href='#compCopyrightText_" + componentId + "'>", "</a>", 
+				componentType, componentNameVersion) + "</p><br />";
+		} else if (!isUndefinedOrEmpty(effectiveCopyrightStatement)) {
+			// There are BOTH license and copyright sections
+			componentRowTextComponentHeaderEnclosed = "<p class='important'>" + enclosedYoullFindLicensesAndCopyrights.format("<a href='#compLicenseText_" + componentId + "'>", "</a>",
+				"<a href='#compCopyrightText_" + componentId + "'>", "</a>", componentType, componentNameVersion) + "</p><br />";
+		} else {
+			// There is only a license section
+			componentRowTextComponentHeaderEnclosed = "<p class='important'>" + enclosedYoullFindJustLicenses.format("<a href='#compLicenseText_" + componentId + "'>", "</a>",
+				componentType, componentNameVersion) + "</p><br />";
+		}
+		
+		var componentRowTextComponentHeader = componentRowTextComponentHeaderTitle + componentRowTextComponentHeaderComponent + componentRowTextComponentHeaderEnclosed;
+	
+		var componentRowTextLicenseText = constructLicenseTableWithHeader(componentId, componentLicenseSet, componentType);
+
+		var componentRowTextCopyrightText = constructCopyrightTableWithHeader(componentId, effectiveCopyrightStatement);
+			
+		var componentDetailCellText = componentRowTextComponentHeader + componentRowTextLicenseText + componentRowTextCopyrightText;
+		return componentDetailCellText;
+	}
+	
+	/**
+	 * Construct license text table
+	 */
+	function constructLicenseTableWithHeader(componentId, componentLicenseSet, componentType) {
+		console.log("constructLicenseTable: componentType: " + componentType);
+		if  (isUndefinedOrEmpty(componentLicenseSet)) {
+			console.log("ReportContent includes no licenses");
+			return "<br>";
+		}
+		var tableHtmlOpen = "<table class='licenseText'>";
+		var tableHtmlRows = "";
+		
+		for (var licenseIndex = 0; licenseIndex < componentLicenseSet.length; licenseIndex++) {
+			var licenseKey, licenseCopyrightText, licenseText;
+			licenseKey           = componentLicenseSet[licenseIndex].id;
+				
+			console.log("Including license key: '" + licenseKey + "'");
+			if(componentLicenseSet[licenseIndex].hasOwnProperty("licenseText")){
+				licenseText = componentLicenseSet[licenseIndex].licenseText;
+			} else {
+				licenseText = applicationData.applicationLicenses[licenseKey];
+			}
+			
+			if (licenseKey != ""){
+				tableHtmlRows += "<tr><td>" + licenseText + "</td></tr>";
+			}
+		}
+		
+		var tableHtmlClose = "</table>";
+		var licenseTableHtml = tableHtmlOpen + tableHtmlRows + tableHtmlClose;
+
+		return "<h5><a name='compLicenseText_" + componentId + "'>" + licenseConditionsLabel + "</a></h5><br />" + licenseTableHtml + "<br/>";
+	}
+
+	/**
+	 * Construct Copyright text table
+	 */
+	function constructCopyrightTableWithHeader(componentId, effectiveCopyrightStatement) {
+		if (isUndefinedOrEmpty(effectiveCopyrightStatement)) {
+			return "<br>";
+		}
+		var breakedComponentCopyrightStatement = effectiveCopyrightStatement.replace(/\n/g, '<br/>');
+		var tableHtml = "<table class='copyrightText'><tr><td class='copyrightText'>" + breakedComponentCopyrightStatement + "</td></tr></table>";
+		
+		return "<br /><h5><a name='compCopyrightText_" + componentId + "'>" + copyrightsLabel + "</a></h5><br />" + tableHtml + "<br/>";
+	}
+	
+	
+	</script>
+
+<!-- END OF COMPONENT-LEVEL INFORMATION AND CODE -->
+
+
+ <font size="1">
+ 	Portions generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. No content created from ScanCode should be considered or used as legal advice. Consult an Attorney for any legal advice. ScanCode is a free software code scanning tool from nexB Inc. and others. Visit <a href="https://github.com/nexB/scancode-toolkit/">https://github.com/nexB/scancode-toolkit/</a> for support and download.
+</font>
+
+</body></html>

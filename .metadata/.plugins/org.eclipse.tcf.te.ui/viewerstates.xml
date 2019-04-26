@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewerStates>
+<viewerState id="org.eclipse.tcf.te.ui.controls.viewer.fs.88d359a7-5049-4d80-9ba8-03523de3d647">
+<column id="name" order="0" visible="true" width="782"/>
+<column id="size" order="1" visible="true" width="260"/>
+<column id="type" order="3" visible="false" width="100"/>
+<column id="modified" order="2" visible="true" width="315"/>
+<column id="accessed" order="5" visible="false" width="120"/>
+<filter enabled="true" id="org.eclipse.tcf.te.tcf.filesystem.navigator.filter.hiddenFiles"/>
+</viewerState>
+</viewerStates>
